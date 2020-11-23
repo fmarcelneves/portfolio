@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![]({{site.baseurl}}/images/Felipe.jpg){:height="800px" width="600px"}
+![]({{site.baseurl}}/images/Felipe.jpg){:height="600px" width="550px"}
 
 Doutor em Ciências Biológicas da Universidade Federal do Paraná (UFPR) com doutorado sanduíche (bolsista CAPES-PDSE) na New Jersey Institute of Technology (NJIT), Mestre em Zoologia da Universidade Federal do Paraná (UFPR), Bacharel em Biologia pela Pontifícia Universidade Católica do Paraná. Realizei pós-doutorado e fui pesquisador associado do Instituto Oceanográfico da Universidade de São Paulo (IOUSP).
 
