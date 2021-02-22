@@ -11,13 +11,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Um framework para análise de dados de redes sociais usando análises de sentimentos e medidas de redes complexas - Post publicado no Medium" />
 <meta property="og:description" content="Um framework para análise de dados de redes sociais usando análises de sentimentos e medidas de redes complexas - Post publicado no Medium" />
-<link rel="canonical" href="https://fmarcelneves.github.io/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/02/21/_01_13_Twitter_network_analytics_Parte_I.html" />
-<meta property="og:url" content="https://fmarcelneves.github.io/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/02/21/_01_13_Twitter_network_analytics_Parte_I.html" />
+<link rel="canonical" href="https://fmarcelneves.github.io/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/01/13/Twitter-network-analytics-Parte-I.html" />
+<meta property="og:url" content="https://fmarcelneves.github.io/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/01/13/Twitter-network-analytics-Parte-I.html" />
 <meta property="og:site_name" content="Felipe Marcel Neves - Portfolio" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-02-21T00:00:00-06:00" />
+<meta property="article:published_time" content="2021-01-13T00:00:00-06:00" />
 <script type="application/ld+json">
-{"description":"Um framework para análise de dados de redes sociais usando análises de sentimentos e medidas de redes complexas - Post publicado no Medium","url":"https://fmarcelneves.github.io/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/02/21/_01_13_Twitter_network_analytics_Parte_I.html","@type":"BlogPosting","headline":"Twitter network analytics — Parte I","dateModified":"2021-02-21T00:00:00-06:00","datePublished":"2021-02-21T00:00:00-06:00","author":{"@type":"Person","name":"Felipe Marcel Neves"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://fmarcelneves.github.io/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/02/21/_01_13_Twitter_network_analytics_Parte_I.html"},"@context":"https://schema.org"}</script>
+{"description":"Um framework para análise de dados de redes sociais usando análises de sentimentos e medidas de redes complexas - Post publicado no Medium","url":"https://fmarcelneves.github.io/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/01/13/Twitter-network-analytics-Parte-I.html","@type":"BlogPosting","headline":"Twitter network analytics — Parte I","dateModified":"2021-01-13T00:00:00-06:00","datePublished":"2021-01-13T00:00:00-06:00","author":{"@type":"Person","name":"Felipe Marcel Neves"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://fmarcelneves.github.io/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/01/13/Twitter-network-analytics-Parte-I.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/portfolio/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://fmarcelneves.github.io/portfolio/feed.xml" title="Felipe Marcel Neves - Portfolio" /><link rel="shortcut icon" type="image/x-icon" href="/portfolio/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -72,8 +72,8 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Twitter network analytics — Parte I</h1><p class="page-description">Um framework para análise de dados de redes sociais usando análises de sentimentos e medidas de redes complexas - Post publicado no Medium</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-02-21T00:00:00-06:00" itemprop="datePublished">
-        Feb 21, 2021
+    <h1 class="post-title p-name" itemprop="name headline">Twitter network analytics — Parte I</h1><p class="page-description">Um framework para análise de dados de redes sociais usando análises de sentimentos e medidas de redes complexas - Post publicado no Medium</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-01-13T00:00:00-06:00" itemprop="datePublished">
+        Jan 13, 2021
       </time>• 
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">Felipe Marcel Neves</span></span>
@@ -110,19 +110,19 @@ window.onload = wrap_img;
         <div class="pb-5 d-flex flex-wrap flex-justify-end">
           <div class="px-2">
 
-    <a href="https://github.com/Fmarcelneves/portfolio/tree/master/_notebooks/2021_01_13_Twitter_network_analytics_Parte_I.ipynb" role="button" target="_blank">
+    <a href="https://github.com/Fmarcelneves/portfolio/tree/master/_notebooks/2021-01-13-Twitter-network-analytics-Parte-I.ipynb" role="button" target="_blank">
 <img class="notebook-badge-image" src="/portfolio/assets/badges/github.svg" alt="View On GitHub">
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://mybinder.org/v2/gh/Fmarcelneves/portfolio/master?filepath=_notebooks%2F2021_01_13_Twitter_network_analytics_Parte_I.ipynb" target="_blank">
+    <a href="https://mybinder.org/v2/gh/Fmarcelneves/portfolio/master?filepath=_notebooks%2F2021-01-13-Twitter-network-analytics-Parte-I.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/portfolio/assets/badges/binder.svg" alt="Open In Binder"/>
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://colab.research.google.com/github/Fmarcelneves/portfolio/blob/master/_notebooks/2021_01_13_Twitter_network_analytics_Parte_I.ipynb" target="_blank">
+    <a href="https://colab.research.google.com/github/Fmarcelneves/portfolio/blob/master/_notebooks/2021-01-13-Twitter-network-analytics-Parte-I.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/portfolio/assets/badges/colab.svg" alt="Open In Colab"/>
     </a>
 </div>
@@ -135,7 +135,7 @@ window.onload = wrap_img;
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/2021_01_13_Twitter_network_analytics_Parte_I.ipynb
+# file to edit: _notebooks/2021-01-13-Twitter-network-analytics-Parte-I.ipynb
 -->
 
 <div class="container" id="notebook-container">
@@ -170,7 +170,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/02/21/_01_13_Twitter_network_analytics_Parte_I.html" hidden></a>
+</script><a class="u-url" href="/portfolio/data%20science/twitter/medium/redes%20complexas/an%C3%A1lise%20de%20sentimento/2021/01/13/Twitter-network-analytics-Parte-I.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
